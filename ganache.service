@@ -1,0 +1,12 @@
+[Unit]
+Description=ROT13 demo service
+After=network.target
+StartLimitIntervalSec=0[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=centos
+ExecStart=ganache-cli --host "172.31.9.138"  --port 8545 --networkId 5777 -d 
+
+[Install]
+WantedBy=multi-user.target
