@@ -3,7 +3,7 @@ module.exports = {
   networks: {
     development: {
       networkCheckTimeout: 100000,
-      host: "3.106.232.134",     // Localhost (default: none)
+      host: "52.64.129.151",     // Localhost (default: none)
       port: 8545,            // Standard Ethereum port (default: none)
       network_id: "*",       // Any network (default: none)
     },
