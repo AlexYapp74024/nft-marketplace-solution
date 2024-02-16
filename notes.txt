@@ -6,8 +6,8 @@ source ~/.profile
 nvm install 16.16.0
 nvm use 16.16.0
 npm -v
-npm install -g ganache-cli
-ganache-cli --host "172.31.9.138"  --port 8545 --networkId 5777 -d 
+npm install -g ganache
+ganache --host "172.31.9.138"  --port 8545 --networkId 5777 -d 
 
 Image Links
 ================
